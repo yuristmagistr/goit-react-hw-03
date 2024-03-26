@@ -1,0 +1,27 @@
+.optionsBox {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+.optionsButton {
+    border-radius: 8px;
+    border: 1px solid #7c7b7b;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #b8b7b7;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #060506;
+}
+
+/* button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+} */
