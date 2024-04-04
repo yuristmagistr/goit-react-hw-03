@@ -34,19 +34,19 @@ const App = () => {
     setContacts(contacts.filter(contact => contact.id !== id));
   };
 
-  const handleFilterChange = (event) => {
-    setFilter(event.target.value);
-  };
+  // const handleFilterChange = (event) => {
+  //   setFilter(event.target.value);
+  // };
 
   const filteredContacts = contacts.filter(contact =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
 
   return (
-    <div>
+    <div className="Box">
       <h1>Phonebook</h1>
       <ContactForm addContact={addContact} />
-      <SearchBox value={filter} onChange={handleFilterChange} />
+      <SearchBox value={filter} onChange={setFilter} />
       <ContactList contacts={filteredContacts} deleteContact={deleteContact} />
     </div>
   );

@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.Box {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
