@@ -2,9 +2,10 @@
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    height: 230px;
-    width: 350px;
+    /* height: 230px; */
+    /* width: 350px; */
     padding: 10px;
+        /* box-sizing: border-box; */
 }
 
 .inputContainer {
@@ -22,7 +23,7 @@ label {
 }
 
 .input {
-    width: 330px;
+    width: 322px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid black;
